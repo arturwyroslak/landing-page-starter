@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Landing Page — Produkt</title>
+  <meta name="description" content="Prosty szablon landing page — edytuj nagłówek, sekcje i formularz kontaktowy.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Twoja Marka</h1>
+      <nav class="nav">
+        <a href="#features">Funkcje</a>
+        <a href="#testimonials">Referencje</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <a class="cta" href="#contact">Skontaktuj się</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Prosty produkt, szybkie rezultaty</h2>
+        <p class="lead">Opis w dwóch zdaniach, dlaczego warto wybrać ten produkt.</p>
+        <a class="btn" href="#contact">Rozpocznij</a>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <h3>Co oferujemy</h3>
+      <ul>
+        <li>Łatwe w użyciu</li>
+        <li>Responsywne</li>
+        <li>Szybkie wdrożenie</li>
+      </ul>
+    </section>
+
+    <section id="testimonials" class="container testimonials">
+      <h3>Referencje</h3>
+      <blockquote>
+        <p>„Świetny produkt — polecam!”</p>
+        <cite>— Klient</cite>
+      </blockquote>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Kontakt</h3>
+      <form id="contactForm">
+        <label>
+          Imię i nazwisko
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Wiadomość
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Wyślij wiadomość</button>
+      </form>
+      <p id="formStatus" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Twoja Marka</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
